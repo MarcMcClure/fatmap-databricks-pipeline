@@ -1,0 +1,13 @@
+# Data files
+*.pkl
+*.csv
+*.parquet
+*.gpx
+
+# Python
+__pycache__/
+*.pyc
+
+# Local environment / secrets
+.env
+*.env
