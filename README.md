@@ -11,7 +11,7 @@ The pipeline follows a Bronze/Silver architecture:
 3. Valid records are transformed into a cleaned Silver route table; invalid records are quarantined.
 4. GPX XML is parsed into individual track points, which are separately validated and written to Silver and quarantine tables.
 
-![Databricks pipeline graph](docs/Fatmap Pickled Routes Intake 8.18.2026.png)
+![Databricks pipeline graph](docs/pipeline_graph.png)
 
 ## Technologies
 
